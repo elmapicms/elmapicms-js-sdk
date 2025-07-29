@@ -1,0 +1,56 @@
+{
+  "name": "@elmapicms/js-sdk",
+  "version": "0.1.0",
+  "description": "JavaScript SDK for ElmapiCMS Content API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "elmapi",
+    "elmapicms",
+    "cms",
+    "api",
+    "sdk",
+    "javascript",
+    "typescript",
+    "headless-cms",
+    "content-management",
+    "nextjs",
+    "react"
+  ],
+  "author": "ElmapiCMS <support@elmapicms.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/superagent": "^8.1.9",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "superagent": "^10.2.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elmapicms/elmapicms-js-sdk.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
