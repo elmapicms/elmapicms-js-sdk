@@ -1,6 +1,6 @@
 # ElmapiCMS JavaScript SDK
 
-A JavaScript SDK for interacting with the ElmapiCMS Content API. This SDK provides type-safe access to all API endpoints for managing content, assets, and collections in your ElmapiCMS instance.
+A JavaScript SDK for interacting with the [ElmapiCMS](https://elmapicms.com) Content API. This SDK provides type-safe access to all API endpoints for managing content, assets, and collections in your ElmapiCMS instance.
 
 ## Installation
 
